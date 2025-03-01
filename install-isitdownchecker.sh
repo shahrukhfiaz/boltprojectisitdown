@@ -49,7 +49,7 @@ cd ~/isitdownchecker
 
 # Clone the repository
 echo "Cloning the repository..."
-git clone https://github.com/shahrukhfiaz/isitdownchecker.git .
+git clone https://github.com/shahrukhfiaz/boltprojectisitdown.git .
 
 # Install dependencies
 echo "Installing dependencies..."
