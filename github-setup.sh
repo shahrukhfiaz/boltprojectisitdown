@@ -28,7 +28,7 @@ cd isitdownchecker
 
 # Clone the repository
 echo "Cloning the repository..."
-git clone https://github.com/shahrukhfiaz/isitdownchecker.git .
+git clone https://github.com/shahrukhfiaz/boltprojectisitdown.git .
 
 if [ $? -ne 0 ]; then
     echo "Failed to clone the repository. Please check your internet connection and try again."
