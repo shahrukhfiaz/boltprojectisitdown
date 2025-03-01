@@ -30,12 +30,12 @@ git commit -m "Initial commit of IsItDownChecker"
 
 # Add GitHub remote
 echo "Adding GitHub remote..."
-git remote add origin https://github.com/shahrukhfiaz/isitdownchecker.git
+git remote add origin https://github.com/shahrukhfiaz/boltprojectisitdown.git
 
 # Check if the remote already exists
 if [ $? -ne 0 ]; then
     echo "Remote already exists, setting URL..."
-    git remote set-url origin https://github.com/shahrukhfiaz/isitdownchecker.git
+    git remote set-url origin https://github.com/shahrukhfiaz/boltprojectisitdown.git
 fi
 
 # Configure Git credentials
@@ -60,5 +60,5 @@ fi
 
 echo ""
 echo "=== Deployment Complete ==="
-echo "The project has been pushed to GitHub: https://github.com/shahrukhfiaz/isitdownchecker"
+echo "The project has been pushed to GitHub: https://github.com/shahrukhfiaz/boltprojectisitdown"
 echo ""
